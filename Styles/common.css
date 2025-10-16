@@ -1,0 +1,338 @@
+/*
+COLORS:
+#ADADAD Gray (bkground)
+#364981 Blue
+#00665C Green
+#171412 Smoky black
+*/
+
+/*
+Developer: Evan Scott egscott@eagles.usi.edu
+		Last Updated: 9 May 2025
+		Description:
+			-POLS 102 - Honors Contract, Second Amendment project
+			-CSS file for all pages
+		*/
+
+body {
+	background-color: #ADADAD;	
+	font-family: Cambria, Times New Roman, sans-serif, serif;
+	color: #171412; /*Smoky Black*/
+	/*margin-left: 30%;
+	margin-right: auto;*/
+
+}
+
+
+header {
+	position: relative;
+
+	
+}
+
+header h1 {
+		/*Main heading in the header on each page*/
+		color: #364981;
+		font-size: 250%;
+		margin-left: 15%;
+		margin-right: auto;
+}
+
+
+h2 {
+	/*All the homepage subheadings*/
+	text-decoration: underline;
+	color: #00665C; /*Green*/
+	margin-left: 1%;
+	margin-right: auto;
+}
+
+
+h3 {
+	/*All the homepage subheadings*/
+	/*text-decoration: underline;*/
+	color: #00665C; /*Green*/
+	margin-left: 1%;
+	margin-right: auto;
+}
+
+
+p {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+
+
+ul#mainNav li {
+	float: right;
+	position: relative;
+	top: 0;
+	right: 0;
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	
+}
+
+ul#mainNav li a:hover{
+	background-color: #5e7acc; /*Ligther blue*/
+	
+}
+
+#Logo {
+	position: relative;
+	display: inline-block;
+	margin:  5px;
+	/*position: absolute;*/
+	top: 0;
+	left: 0;
+	max-width: 40%;
+	max-height: 40%;
+	border-radius: 10px;
+	margin-left: 1%;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+}
+  
+.a-nav {
+	 display: inline-block;
+	 background-color: #364981; /* Blue */
+	 /*background-color: #00665C; /* Green */
+	 color: white;
+	 padding: 4px;
+	 margin: 3px;
+	 text-decoration: none;
+	 /*position: static;*/
+	 top: 0;
+	 right: 0;
+	 border-radius: 8px;
+	 
+	 
+}
+
+
+
+/*main img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 1%;
+	
+}*/
+
+.stateInfoImg {
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-left: 1%;
+	max-width: 38%;
+	max-height: 38%;
+}
+
+
+/* ------ This section applies to tables ------ */
+
+table {
+	background-color: /*#00998A*/ #5e7acc; /*ligther blue*/
+	margin-left: 2%;
+	margin-right: auto;
+}
+
+th {
+	background-color: #364981; /*blue*/
+	
+	
+}
+
+tr:hover {
+	background-color: #3B5CBC;
+	
+}
+
+table, th, td {
+	border: 1px solid black;
+	color: white;
+	text-align: center;
+	padding: 4px;
+}
+
+
+.h2Table {
+	margin-left: 1%;
+	margin-right: auto;
+	font-size: 175%;
+}
+
+.tableSource {
+	margin-left: 2%;
+	/*color: #4f69b5;
+	background-color: transparent;
+	text-decoration: none;*/
+}
+
+
+.a-source {
+	color: #4f69b5;
+	background-color: transparent;
+	text-decoration: underline;
+	text-decoration-color: #4f69b5;
+}
+
+/* ------ This section applies to forms ------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- */
+
+form {
+	padding: 4px;
+	margin: 4px;
+	
+}
+
+form, fieldset {
+	margin: 6px;
+	/*border-color: #99bbf2;*/
+	/*border-color: #364981;*/
+	border-color: #5e7acc;
+	border-radius: 5px;
+}
+
+label {
+	margin: 10px;
+}
+
+input, textarea {
+	background-color: #d4cfcf;
+	padding: 2px;
+	border-radius: 4px;
+}
+
+input[type=checkbox] {
+
+	background-color: #d4cfcf; 
+
+}
+
+input[type=radio] {
+	background-color: #d4cfcf;
+	
+}
+
+select, option {
+
+	background-color: #d4cfcf; 
+
+}
+
+/* button */
+input[type=button] {
+	border-radius: 5px;
+	border-width: 1px;
+	margin: 5px;
+	padding: 12px;
+	
+	background-color: #F0F4F8;
+	color: #003E6B;
+	border: solid 1pt #9FB3C8;
+	cursor: pointer;
+}
+
+input[type=button]:hover {
+	background-color: #3B5CBC;
+	color: white;
+}
+
+
+input[type=reset] {
+	border-radius: 5px;
+	border-width: 1px;
+	margin: 5px;
+	padding: 12px;
+	
+	background-color: #F0F4F8;
+	color: #003E6B;
+	border: solid 1pt #9FB3C8;
+	cursor: pointer;
+}
+
+input[type=reset]:hover {
+	background-color: #3B5CBC;
+	color: white;
+}
+/*^^button^^*/
+
+
+/*focus*/
+input[type=text]:focus {
+  border: 3px solid #555;
+  padding: 4px;
+}
+
+input[type=number]:focus {
+  border: 3px solid #555;
+  padding: 4px;
+}
+
+input[type=tel]:focus {
+  border: 3px solid #555;
+  padding: 4px;
+}
+
+input[type=email]:focus {
+  border: 3px solid #555;
+  padding: 4px;
+}
+
+/*^^focus^^*/
+
+
+
+/* ---- Details Summary ------------ */
+
+details > summary {
+  padding: 2px 6px;
+  width: 18em;
+  /*background-color: #ddd;*/
+  /*background-color: #ADADAD;*/
+  /*background-color: #364981;*/
+  background-color: #c1c1c1;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+details > ul {
+  border-radius: 0 0 10px 10px;
+  width: 60em;
+  /*background-color: #ddd;*/
+  /*background-color: #ADADAD;*/
+  /*background-color: #364981;*/
+  background-color: #c1c1c1;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+  margin-left: 3%;
+}
+
+details:open > summary {
+  /*background-color: #ccf;*/
+  background-color: #dddfe0;
+}
+
+
+
+/* ^^^^ Details Summary ^^^^^^^^^^^ */
