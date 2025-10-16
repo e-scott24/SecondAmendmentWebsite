@@ -10,3 +10,6 @@ This repository holds files for my website about the Second Amendment, which was
 
 4) If you have any issues, please reach out to me.
 egscott@eagles.usi.edu
+
+# Copywright Notice
+All of these files were created by and belong solely to me. Please do not re-use these without my permission.
